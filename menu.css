@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: black;
+}
+
+nav h2:hover {
+    color: #FF8C00;
+}
+
+.h2 {
+    background-color: #93FA8F;
+}
+.menu {
+    font-size: 1em;
+}
+
+.menu-container {
+    background-color: #228B22;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #FF8C00;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns changed to 1 for rwd*/
+    gap: 15px;
+    line-height: 3;
+    padding: 48px;
+    text-align: justify;
+}
+
+/* Tablets and mobiles (768px and below) */
+@media (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: 1fr; /* 1 column layout */
+        line-height: 2;
+        padding: 24px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap; 
+        font-size: 0.95em;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+
+    .menu a {
+        background: #93FA8F;
+        border-radius: 5px;
+        color: darkgreen;
+        font-weight: bold;
+        padding: 6px 12px;
+        text-decoration: none;
+        
+    }
+}
+

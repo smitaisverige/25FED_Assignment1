@@ -1,0 +1,30 @@
+nav h2:hover{
+    color: #FF8C00;
+}
+
+h2{
+    text-align: center;
+}
+.about{    
+    align-items: flex-start;
+    background-color:#228B22;
+    border-radius: 8px;
+    color: #FF8C00;
+    display: flex;
+    font-size: large;
+    gap: 20px;
+    height: auto;
+    line-height: 1;
+    margin: 20px 0;
+    padding: 20px;
+        
+}
+
+.aboutinfo {
+    max-width: 70%;
+    text-align: left;
+    
+}
+.aboutinfo:hover{
+    color: red;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meals on Wheels</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="foodtruck.css" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<header>
+    <div class="header-content">
+      <a href="foodtruck_home.html">
+        <img src="foodtruck.jpg" alt="Meals on Wheels Truck Logo" class="logo" />
+      </a>
+      <h1>Meals on Wheels!</h1>
+    </div>
+    <nav>
+      <a href="foodtruck_home.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+<body>
+  <main>
+    <nav><h1>Connect with us!</h1></nav>
+    <div class="contact-container">
+      
+      <p>
+        We would love to respond to your questions and help you as much as we can.
+        <br />
+        Feel free to contact us!
+      </p>
+      <div class="contact-box">
+        <h3>Send your request!</h3>
+        <form
+          action="mailto:smitaisverige@gmail.com"
+          method="post"
+          enctype="text/plain"
+          class="user-information"
+        >
+          <div class="input-row">
+            <div class="input-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="John Johnsson" required/>
+            </div>
+            <div class="input-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" placeholder="+46 070 121 1212" />
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="johnjohnsson@email.com" required />
+            </div>
+            <div class="input-group">
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" placeholder="Meal Review" />
+            </div>
+          </div>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+          <button type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+<footer>
+    <div class="footer-text">
+      <p>Bringing bold Indian flavors to the streets — with a modern twist!</p>
+      <p>
+        With 20+ years in the food game, our founder 🧑‍🍳 blends Indian street classics with Nordic & Southern European vibes.
+      </p>
+      <p>🔥 Fresh. 🥙 Flavorful. 🥗 Handcrafted. 🌯</p>
+      <p>📍 Find us on the move — or book us for your next event!</p>
+      <p>#IndianStreetFood #FoodTruckLife #FusionFlavors #KathiRolls #CurryOnWheels</p>
+    </div>
+    <p class="follow">
+      Follow us on:
+      <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" aria-label="Facebook"></a>
+      <a href="https://x.com" class="fa fa-twitter" target="_blank" aria-label="Twitter"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram"></a>
+    </p>
+    <p class="follow">&copy; 2025 All rights reserved.</p>
+</footer>
+</html>
